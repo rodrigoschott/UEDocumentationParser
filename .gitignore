@@ -4,7 +4,7 @@
 # But not these directories (keep scripts and .gitignore itself)
 !scripts/
 !.gitignore
-
+!README.md
 # Allow scripts and all its contents
 #scripts/**
 
