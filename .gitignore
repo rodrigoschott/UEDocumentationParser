@@ -1,0 +1,12 @@
+# Ignore everything by default
+/*
+
+# But not these directories (keep scripts and .gitignore itself)
+!scripts/
+!.gitignore
+
+# Allow scripts and all its contents
+scripts/**
+
+# Ignore all other files and folders
+# (You can add exceptions below if needed)
