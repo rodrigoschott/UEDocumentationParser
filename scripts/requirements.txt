@@ -4,3 +4,16 @@ orjson
 beautifulsoup4
 selectolax
 humanize
+networkx>=3.0
+pandas>=2.0
+python-igraph>=0.11
+graphviz>=0.20
+# For advanced relationship inference, graph analysis, and vector DB prep:
+scipy>=1.10
+matplotlib>=3.7
+scikit-learn>=1.2
+sentence-transformers>=2.2
+#faiss-cpu>=1.7.4; platform_system != 'Windows'  # For Linux/Mac vector DB
+# faiss-windows-cpu>=1.7.4; platform_system == 'Windows'  # For Windows vector DB
+# annoy for local vector search (Windows/Linux/Mac)
+annoy>=1.17
