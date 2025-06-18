@@ -6,7 +6,7 @@
 !.gitignore
 
 # Allow scripts and all its contents
-scripts/**
+#scripts/**
 
 # Ignore all other files and folders
 # (You can add exceptions below if needed)

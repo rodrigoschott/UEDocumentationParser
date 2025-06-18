@@ -1,0 +1,6 @@
+# NOTE: Use Python 3.10 or 3.11 only. Python 3.12+ is NOT supported due to bs4/soupsieve incompatibility.
+rich>=13.0.0
+orjson
+beautifulsoup4
+selectolax
+humanize
